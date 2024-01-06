@@ -52,6 +52,11 @@ public class Login extends javax.swing.JFrame {
         });
 
         Reset.setText("Reset");
+        Reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ResetActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -124,6 +129,12 @@ public class Login extends javax.swing.JFrame {
             Pass.requestFocus();
         }
     }//GEN-LAST:event_MasukActionPerformed
+
+    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
+        // TODO add your handling code here:
+        Nama.setText("");
+        Pass.setText("");
+    }//GEN-LAST:event_ResetActionPerformed
 
     /**
      * @param args the command line arguments

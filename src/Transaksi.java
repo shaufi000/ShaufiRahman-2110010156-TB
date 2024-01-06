@@ -105,7 +105,7 @@ public class Transaksi extends javax.swing.JFrame {
 
         jLabel3.setText("Jumlah Tiket");
 
-        cbWisata.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "7", "8" }));
+        cbWisata.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "7", "8", "9" }));
 
         jLabel4.setText("Harga");
 
